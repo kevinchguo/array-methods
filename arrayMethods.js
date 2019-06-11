@@ -16,3 +16,51 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+let nameArray = [] ;
+console.log(nameArray.push("Kevin" , "Guo"))
+
+genericNumberArray.push(6,7,8,9,10)
+
+let popResult = colors.pop();
+
+let scramble = scrambledWords.reverse();
+let reverseArry = phoneNumber.reverse();
+
+let nextOrder = orderQueue.shift();
+
+let sortarry = mixedNums.sort();
+let sortarry2 = mixedWords.sort();
+
+// console.log(gemBox)
+let notFruit = fruitCollection.splice(1,3)
+// console.log(notFruit)
+gemBox.splice(8,4)
+gemBox.splice(5,2)
+console.log(gemBox)
+upToTen.splice(2,0,3,4,5,6,7,8)
+console.log(upToTen)
+brownOnly.splice(1,5, "brown", "brown", "brown")
+
+orderedValues.unshift(1,2,3)
+let orderedValuesNewLength = orderedValues.length
+
+let randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray)
+var newOrderQueue = [{ takeOut: 'Orange Chicken' }, { takeOut: 'Teri Chicken'}];
+let updatedOrders = orderQueue.concat(newOrderQueue)
+
+let sentence = scrambledWords.join(' ')
+let myFruits = fruitCollection.join(' + ')
+
+let favoriteFriends = friends.slice(1,3)
+let owesMoney = friends.slice(3,6)
+
+let monthNameString = monthNames.toString()
+
+console.log(colors)
+let favoriteColor = colors.indexOf("Red")
+let favoriteEvenNumber = mixedNums.indexOf(76)
+
+let lastNine = bulkNumbers.lastIndexOf(9)
+let lastFive = bulkNumbers.lastIndexOf(5)
